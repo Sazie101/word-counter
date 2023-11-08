@@ -32,6 +32,7 @@ Part 1 HTML:
         </form>
     </div>
 </body>
+```
 Part 2 CSS:
 1. Make sure everything is centered on the page
 ```css 
@@ -42,6 +43,8 @@ body {
   place-items: center;
   background-color: #ebebeb;
 }
+```
+2. 
 Part 3 JavaScript:
 ##
 ## Demo
