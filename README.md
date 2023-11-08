@@ -104,5 +104,15 @@ window.addEventListener('load', () => {
     wordCounter.innerText = wordCount;
 });
 ```
+6. Add an eventListener to the button and add the event in the brackets and add it `event.preventDefault` to stop the button from reloading the page
+```javascript
+reset.addEventListener('click', (event) => {
+    event.preventDefault();
+    text.value = '';
+    const { characterCount, wordCount } = checkCharacters();
+    characterCounter.innerText = characterCount;
+    wordCounter.innerText = wordCount;
+});
+```
 ## Demo
 Click [here](https://sazie101.github.io/word-counter/) to try
