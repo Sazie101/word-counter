@@ -34,9 +34,10 @@ function checkCharacters() {
 };
 
 onEvent('keyup', text, () => {
-    reset.classList.add('visible');
     if (text.value === '') {
         reset.classList.remove('visible');
+    } else {
+        reset.classList.add('visible');
     }
     const {characterCount, wordCount} = checkCharacters();
     characterCounter.innerText = characterCount;
