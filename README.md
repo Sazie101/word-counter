@@ -1,7 +1,8 @@
 # word-counter
 A program that takes an input and tells you the charcter and word count of your input.
-##
+
 ## Instructions
+
 Part 1 HTML:
 1. Create a basic form
 2. Add the title
@@ -45,7 +46,7 @@ body {
 }
 ```
 2. 
+
 Part 3 JavaScript:
-##
 ## Demo
 Click [here](https://sazie101.github.io/word-counter/) to try
