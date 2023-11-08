@@ -3,7 +3,7 @@ A program that takes an input and tells you the charcter and word count of your 
 
 ## Instructions
 
-Part 1 HTML:
+### Part 1 HTML:
 1. Create a basic form
 2. Add the title
 3. Add the reset button, give it an ID and add a class called hidden to it
@@ -47,6 +47,6 @@ body {
 ```
 2. 
 
-Part 3 JavaScript:
+### Part 3 JavaScript:
 ## Demo
 Click [here](https://sazie101.github.io/word-counter/) to try
