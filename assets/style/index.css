@@ -12,13 +12,16 @@ body {
   height: 100dvh;
   display: grid;
   place-items: center;
-  background-color: #ebebeb;
+  /* background-color: #ebebeb; */
+  background: linear-gradient(to bottom right, #ff6b6b, #6b6bff);
 }
 
 form {
     padding: 20px;
     border-radius: 10px;
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 textarea {
@@ -31,6 +34,7 @@ textarea {
     resize: none;
     outline: none;
     border: 1px solid transparent;
+    background: linear-gradient(#f0f0f0, #e0e0e0);
 }
 
 .reset {
@@ -40,19 +44,23 @@ textarea {
 #reset {
     font-size: 24px;
     cursor: pointer;
-    color: #000;
+    /* color: #000; */
+    color: #333;
     font-weight: 600;
-    background-color: #ffff00;
+    /* background-color: #ffff00; */
+    background: linear-gradient(#ffcc00, #ff9900);
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
     box-shadow: rgba(0 0 0 / 0.2) 3px 3px 5px;
     text-align: right;
+    transition: background 0.3s ease-in-out;
 }
 
 #reset:hover {
-    background-color: #ebeb00;
-    transition: all 0.2s ease-in-out;
+    /* background-color: #ebeb00;
+    transition: all 0.2s ease-in-out; */
+    background: linear-gradient(#ffdb58, #ffad33);
 }
 
 .hidden {
@@ -70,7 +78,8 @@ textarea:focus {
 
 h1 {
     margin-bottom: 15px;
-    color: #000;
+    /* color: #000; */
+    color: #333;
     font-size: 45px;
 }
 
@@ -87,6 +96,7 @@ h1 {
     color: #000;
     font-size: 36px;
     font-weight: 700;
+    text-align: center;
 }
 
 label {
