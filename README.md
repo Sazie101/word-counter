@@ -11,28 +11,34 @@ A program that takes an input and tells you the charcter and word count of your 
 4. Under the text area add the label and paragraph tag and add ID's to them 
 ```html
 <body>
-    <div class="content">
-        <form>
-            <div class="reset">
-                <button id="reset" class="hidden">Clear</button>
-            </div>
-            <div>
-                <h1>Word counter</h1>
-            </div>
-            <textarea name="input" id="input" placeholder="Enter your text here..."></textarea>
-            <div class="counter one">
+        <div class="content">
+            <form>
                 <div>
-                    <label>characters</label>
-                    <p id="characters"></p>
+                    <h1>Word counter</h1>
                 </div>
-                <div>
-                    <label>words</label>
-                    <p id="words">Word count: 0</p>
+                <textarea name="input" id="input" placeholder="Enter your text here..."></textarea>
+                <div class="counters">
+                    <div class="counter one">
+                        <div>
+                            <label>characters</label>
+                            <p id="characters"></p>
+                        </div>
+                        <div>
+                            <label>words</label>
+                            <p id="words">Word count: 0</p>
+                        </div>
+                        <div>
+                            <label>sentences</label>
+                            <p id="sentences"></p>
+                        </div>
+                    </div>
+                    <div class="reset">
+                        <button id="reset" class="hidden">Clear</button>
+                    </div>
                 </div>
-            </div>
-        </form>
-    </div>
-</body>
+            </form>
+        </div>
+    </body>
 ```
 ### Part 2 CSS:
 1. Make sure everything is centered on the page
